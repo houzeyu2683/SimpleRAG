@@ -1,5 +1,8 @@
+.secret.yaml
 .skip/
 *.sqlite3
+*.bin
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
