@@ -1,0 +1,18 @@
+query: |
+  Answer the question based only on the following context. Be concise and direct.
+  If the answer is not in the context, say "I cannot find the answer."
+
+  Context:
+  {context}
+
+  Question: {question}
+  Answer:
+
+extraction: |
+  Extract the product model number from the question.
+  Return only the model number, nothing else.
+  If no model number found, return 'none'.
+
+  Example: "What is the rated power of HS-5102-12A1?" → HS-5102-12A1
+
+  Question: {question}

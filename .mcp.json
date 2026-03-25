@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "pdf-converter": {
+      "command": "/home/houzeyu2683/.conda/envs/SimpleRAG/bin/python",
+      "args": ["server.py"],
+      "cwd": "/home/houzeyu2683/Documents/SimpleRAG"
+    }
+  }
+}

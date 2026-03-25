@@ -1,0 +1,222 @@
+[
+  {
+    "question": "What is the rated power of HS-5102-12A1?",
+    "ground_truth": "1KW (1000W)",
+    "answer": "The rated power of HS-5102-12A1 is 1KW/1.2KW.",
+    "contexts": [
+      "Datasheet_HS-5102-12A1_HS-5122-12L1_V2.md: ## Electrical Specification  \n**Model Name:** HS-5102-12A1 / HS-5122-12L1  \n**Output**  \n| Parameter | 12V | 5V | 3.3V | -12V | 5Vsb |\n|---|---|---|---|---|---|\n| Rated power | 1KW/1.2KW | | | | |\n| Rated voltage | 12V | 5V | 3.3V | -12V | 5Vsb |\n| Rated current | 83A/100A | 20A | 20A | 0.3A | 3A |\n| Ripple & Noise (max.) (note #2) | 120mV | 50mV | 50mV | 120mV | 50mV |\n| Line & load regulation | ±5% | ±5% | ±5% | ±10% | ±5% |\n| Hold-up time (typ.) (note #5) | 16ms | | | | |\n| Timing: AC ON delay / rising (max.) | 2 sec / 20ms | | | | |  \n**Input**  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac, 300Vac for 5 sec |\n| Current range (max.) | 14A/100Vac, 6A/200Vac for 1KW; 15A/100Vac, 7A/200Vac for 1.2KW |\n| Inrush current | No component damaged (<I²t) |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 3.5mA at 240Vac |\n| Efficiency (min.) | 90% - 92% - 89% (at 20% - 50% - 100% of rated loading) |",
+      "Datasheet_HS-5301-12A1_V2.md: ## Electrical Specification  \n**Model Name:** HS-5301-12A1  \n**Output**  \n| Parameter | 12V | 5V | 3.3V | -12V | 5Vsb |\n|---|---|---|---|---|---|\n| Rated power | 300W | | | | |\n| Rated voltage | 12V | 5V | 3.3V | -12V | 5Vsb |\n| Rated current | 25A | 20A | 20A | 0.3A | 3A |\n| Ripple & Noise (max.) (note #2) | 120mV | 50mV | 50mV | 120mV | 50mV |\n| Line & load regulation | ±5% | ±5% | ±5% | ±10% | ±5% |\n| Hold-up time (typ.) (note #5) | 16ms | | | | |\n| Timing: AC ON delay / rising (max.) | 2 sec / 20ms | | | | |  \n**Input**  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac, 300Vac for 5 sec |\n| Current range (max.) | 6.0A/100Vac |\n| Inrush current | No component damaged (<I²t) |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 3.5mA at 240Vac |\n| Efficiency (min.) | 87% - 90% - 87% (at 20% - 50% - 100% of rated loading) |",
+      "Datasheet_HS-5501-12A1_V2.md: ### Output  \n| Parameter | 12V | 5V | 3.3V | -12V | 5Vsb |\n|---|---|---|---|---|---|\n| Rated power | 500W | | | | |\n| Rated voltage | 12V | 5V | 3.3V | -12V | 5Vsb |\n| Rated current | 41A | 20A | 20A | 0.3A | 3A |\n| Ripple & Noise (max.) (note #2) | 120mV | 50mV | 50mV | 120mV | 50mV |\n| Line & load regulation | ±5% | ±5% | ±5% | ±10% | ±5% |  \n| Parameter | Value |\n|---|---|\n| Hold-up time (typ.) (note #5) | 16ms |\n| Timing: AC ON delay / rising (max.) | 2 sec / 20ms |"
+    ],
+    "type": "single_value"
+  },
+  {
+    "question": "What is the operating temperature range of PS-5501-50LG?",
+    "ground_truth": "0~50℃",
+    "answer": "The operating temperature range of PS-5501-50LG is 0~50℃.",
+    "contexts": [
+      "Datasheet_PS-5501-50LG_PS-5651-50LG_PS-5751-50LG_V3.md: ### Environment  \n| Parameter | Value |\n|---|---|\n| Temperature (note#5) | (operating) 0~50℃ / (storage) -40~85℃ |\n| Humidity | (operating) 10~90% RH non-condensing / (storage) 5~95% RH |\n| Altitude (max.) | 5000 meters |",
+      "Datasheet_PS-5501-50LG_PS-5651-50LG_PS-5751-50LG_V3.md: ### Input  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac, 300Vac for 5 sec |\n| Current range (max.) | 8A/100Vac (500W); 8A/100Vac (650W); 10A/100Vac (750W) |\n| Inrush current | No component damaged (<I²t) |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 3.5mA at 240Vac |\n| Efficiency (min.) | 87% - 90% - 87% (at 20% - 50% - 100% of rated loading) |\n| Standby power saving (min.) | Pin<1W at 5Vsb/0.1A; Pin<0.5W at Po=0.25W (at REM_OFF, efficiency>50%) |",
+      "Datasheet_PS-5501-50LG_PS-5651-50LG_PS-5751-50LG_V3.md: ## Notes  \n1. All specification defined at 230Vac/50Hz, rated power and 25℃ ambient temperature if not mentioned specifically.\n2. Ripple noise is measured with 0.1uF MLCC & 10uF low ESR capacitor.\n3. Calculated by Telcordia SR332 at 25℃ ambient temperature.\n4. When operating altitude is higher than 2000m, the environment temperature derating factor is 0.36℃/100m.\n5. Hold up time will be evaluated at 80% of rated load.\n6. With 12V-2x6 connector, it can support 200% peak power. Without 12V-2x6 connector, it can support 150% peak power.  \n---"
+    ],
+    "type": "single_value"
+  },
+  {
+    "question": "What is the operating temperature range of PS-5601-60CL?",
+    "ground_truth": "0~40℃",
+    "answer": "The operating temperature range for PS-5601-60CL is 0~40℃.",
+    "contexts": [
+      "Datasheet_PS-5601-60CL_PS-5751-60CL_PS-5851-60CL_V2.md: ### Environment  \n| Parameter | Value |\n|---|---|\n| Temperature (note#5) | (operating) 0~40℃ / (storage) -40~85℃ |\n| Humidity | (operating) 10~90% RH non-condensing / (storage) 5~95% RH |\n| Altitude (max.) | 5000 meters |",
+      "Datasheet_PS-5601-60CL_PS-5751-60CL_PS-5851-60CL_V2.md: ### Input  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac, 300Vac for 5 sec |\n| Current range (max.) | 8A/100Vac (600W); 10A/100Vac (750W); 10A/100Vac (850W) |\n| Inrush current | No component damaged (<I²t) |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 3.5mA at 240Vac |\n| Efficiency (min.) | 87% - 90% - 87% (at 20% - 50% - 100% of rated loading) |\n| Standby power saving (min.) | Pin<1W at 5Vsb/0.1A; Pin<0.5W at Po=0.25W (at REM_OFF, efficiency>50%) |",
+      "Datasheet_PS-5601-60CL_PS-5751-60CL_PS-5851-60CL_V2.md: ## Notes  \n1. All specification defined at 230Vac/50Hz, rated power and 25℃ ambient temperature if not mentioned specifically.\n2. Ripple noise is measured with 0.1uF MLCC & 10uF low ESR capacitor.\n3. Calculated by Telcordia SR332 at 25℃ ambient temperature.\n4. When operating altitude is higher than 2000m, the environment temperature derating factor is 0.36℃/100m.\n5. Hold up time will be evaluated at 80% of rated load.\n6. With 12V-2x6 connector, it can support 200% peak power. Without 12V-2x6 connector, it can support 150% peak power.  \n---"
+    ],
+    "type": "single_value"
+  },
+  {
+    "question": "What is the weight of PA-1101-66VN?",
+    "ground_truth": "300g",
+    "answer": "The weight of PA-1101-66VN (as indicated in the Weight (typ.) column) is 300g.",
+    "contexts": [
+      "Datasheet_PA-1101-66VN_V3.md: ### Mechanical  \n| Parameter | Value |\n|---|---|\n| Dimension | 108(L) × 56(W) × 27(H) mm |\n| Temperature rise of case (note #4) | ΔT less than 50℃ |\n| Weight (typ.) | 300g |",
+      "Datasheet_PA-1101-66VN_V3.md: ## Mechanical Specification",
+      "Datasheet_PA-1141-50VN_V5.md: ### Mechanical  \n| Parameter | Value |\n|---|---|\n| Dimension | 142(L) × 70(W) × 32.2(H) mm |\n| Surface temperature (max.) | 85℃ at 40℃ ambient and max rated load for all output voltages |\n| Weight (typ.) | 500g |"
+    ],
+    "type": "single_value"
+  },
+  {
+    "question": "What is the dimension of HS-5102-12A1?",
+    "ground_truth": "150(L)*160(W)*86(H) mm",
+    "answer": "The dimension of HS-5102-12A1 is 150(L)*160(W)*86(H) mm.",
+    "contexts": [
+      "Datasheet_HS-5102-12A1_HS-5122-12L1_V2.md: ## Electrical Specification  \n**Model Name:** HS-5102-12A1 / HS-5122-12L1  \n**Output**  \n| Parameter | 12V | 5V | 3.3V | -12V | 5Vsb |\n|---|---|---|---|---|---|\n| Rated power | 1KW/1.2KW | | | | |\n| Rated voltage | 12V | 5V | 3.3V | -12V | 5Vsb |\n| Rated current | 83A/100A | 20A | 20A | 0.3A | 3A |\n| Ripple & Noise (max.) (note #2) | 120mV | 50mV | 50mV | 120mV | 50mV |\n| Line & load regulation | ±5% | ±5% | ±5% | ±10% | ±5% |\n| Hold-up time (typ.) (note #5) | 16ms | | | | |\n| Timing: AC ON delay / rising (max.) | 2 sec / 20ms | | | | |  \n**Input**  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac, 300Vac for 5 sec |\n| Current range (max.) | 14A/100Vac, 6A/200Vac for 1KW; 15A/100Vac, 7A/200Vac for 1.2KW |\n| Inrush current | No component damaged (<I²t) |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 3.5mA at 240Vac |\n| Efficiency (min.) | 90% - 92% - 89% (at 20% - 50% - 100% of rated loading) |",
+      "Datasheet_HS-5102-12A1_HS-5122-12L1_V2.md: ## Mechanical Specification  \n*(Cable assignment may be varied by request)*  \n| Parameter | Value |\n|---|---|\n| Dimension | 150(L)*160(W)*86(H) mm |\n| Vibration | 10~500 Hz, 5G 20min./1cycle per axis for all axes (X, Y, Z) |\n| Weight (typ.) | 1750g (excluding output cable) |  \n**Safety**  \n| Parameter | Value |\n|---|---|\n| Standard | CB/IEC62368-1, TUV62368-1, UL62368-1, EN62368-1, CCC GB4943.1, BSMI CNS15598-1, KC62368-1 |\n| Withstand voltage | Input-Output: 4242VDC / Input-FG: 2150VDC |\n| Isolation resistance (min.) | Input-Output: 100Mohm @ 500VDC, 25℃, 70%RH |  \n**EMC**  \n| Parameter | Value |\n|---|---|\n| EN55032 (CISPR32) | Conducted EMI: class B / Radiated EMI: class B |\n| FCC | Conducted EMI: class B / Radiated EMI: class B |\n| EN61000-3-2 | Harmonic distortion: Class D |\n| EN61000-4-2 | ESD: ±8KV contact discharge / ±15KV contact discharge |\n| EN61000-4-3 | Radiated RF immunity: 3V/m |\n| EN61000-4-4 | EFT: ±1KV (AC port) |\n| EN61000-4-5 | Surge: ±1KV DM / ±2KV CM |",
+      "Datasheet_HS-5301-12A1_V2.md: ## Mechanical Specification  \n| Parameter | Value |\n|---|---|\n| Dimension | 150(L)*140(W)*86(H) mm |\n| Vibration | 10~500 Hz, 5G 20min./1cycle per axis for all axes (X, Y, Z) |\n| Weight (typ.) | 1250g |  \n**Safety**  \n| Parameter | Value |\n|---|---|\n| Standard | CB/IEC62368-1, TUV62368-1, UL62368-1, EN62368-1, CCC GB4943.1, BSMI CNS15598-1, KC62368-1 |\n| Withstand voltage | Input-Output: 4242VDC / Input-FG: 2150VDC |\n| Isolation resistance (min.) | Input-Output: 100Mohm @ 500VDC, 25℃, 70%RH |  \n**EMC**  \n| Parameter | Value |\n|---|---|\n| EN55032 (CISPR32) | Conducted EMI: class B / Radiated EMI: class B |\n| FCC | Conducted EMI: class B / Radiated EMI: class B |\n| EN61000-3-2 | Harmonic distortion: Class D |\n| EN61000-4-2 | ESD: ±8KV contact discharge / ±15KV contact discharge |\n| EN61000-4-3 | Radiated RF immunity: 3V/m |\n| EN61000-4-4 | EFT: ±1KV (AC port) |\n| EN61000-4-5 | Surge: ±1KV DM / ±2KV CM |\n| EN61000-4-6 | Conducted RF immunity: 3V/m |"
+    ],
+    "type": "single_value"
+  },
+  {
+    "question": "What is the MTBF of PS-5851-1J1?",
+    "ground_truth": "700K hours at rated load",
+    "answer": "The MTBF (Mean Time Between Failures) of PS-5851-1J1 is 700K hours @ rated load.",
+    "contexts": [
+      "Datasheet_PS-5851-1J1_V2.md: ### Others  \n| Parameter | Value |\n|---|---|\n| MTBF (min.) (note#3) | 700K hours @ rated load |",
+      "Datasheet_PS-5851-1J1_V2.md: ### Output  \n| Parameter | 12V | 5V | 3.3V | -12V | 5Vsb |\n|---|---|---|---|---|---|\n| Rated power | 850W | | | | |\n| Rated voltage | 12V | 5V | 3.3V | -12V | 5Vsb |\n| Rated current | 70.5A | 20A | 20A | 0.3A | 2.5A |\n| Ripple & Noise (max.) (note #2) | 120mV | 50mV | 50mV | 120mV | 50mV |\n| Line & load regulation | ±5% | ±5% | ±5% | ±10% | ±5% |  \n| Parameter | Value |\n|---|---|\n| Hold-up time (typ.) (note #5) | 16ms |\n| Timing: AC ON delay / rising (max.) | 2 sec / 20ms |",
+      "Datasheet_PS-5851-1J1_V2.md: ## Mechanical Specification"
+    ],
+    "type": "single_value"
+  },
+  {
+    "question": "What is the maximum output current of PA-1101-66VN at 20V?",
+    "ground_truth": "5A",
+    "answer": "The maximum output current of PA-1101-66VN at 20V is 5A.",
+    "contexts": [
+      "Datasheet_PA-1101-66VN_V3.md: ### Output  \n| Parameter | 5V | 9V | 15V | 20V |\n|---|---|---|---|---|\n| Rated power | 100W | | | |\n| Rated voltage | 5V | 9V | 15V | 20V |\n| Rated current | 3A | 3A | 3A | 5A |  \n| Parameter | Value |\n|---|---|\n| Ripple & Noise (max.) (note #1) | 350mV |\n| Line & load regulation | ±5% |\n| Hold-up time (min.) | 5ms at 115Vac |\n| Timing: AC ON delay / rising (max.) | 3 sec / 175ms |",
+      "Datasheet_PA-1101-66VN_V3.md: ### Input  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac |\n| Current range (max.) | 1.6A |\n| Inrush current (typ.) | Limited to a 22% margin of the I²t rating of fuse and bridge rectifier |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 100uA at 264Vac |\n| Efficiency (min.) (note#2) | 89.0% |",
+      "Datasheet_PA-1141-50VN_V5.md: ### Input Specification  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100V~240VAC |\n| Operated voltage range | 90V~264VAC |\n| Current range (max.) | 2.5A |\n| Inrush current (max.) | 150A at rated input voltage |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 250uA at rated input voltage |"
+    ],
+    "type": "single_value"
+  },
+  {
+    "question": "What is the minimum efficiency of PS-5501-50LG at 50% load?",
+    "ground_truth": "90%",
+    "answer": "The minimum efficiency at 50% load for PS-50LG is 90%.",
+    "contexts": [
+      "Datasheet_PS-5501-50LG_PS-5651-50LG_PS-5751-50LG_V3.md: ### Input  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac, 300Vac for 5 sec |\n| Current range (max.) | 8A/100Vac (500W); 8A/100Vac (650W); 10A/100Vac (750W) |\n| Inrush current | No component damaged (<I²t) |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 3.5mA at 240Vac |\n| Efficiency (min.) | 87% - 90% - 87% (at 20% - 50% - 100% of rated loading) |\n| Standby power saving (min.) | Pin<1W at 5Vsb/0.1A; Pin<0.5W at Po=0.25W (at REM_OFF, efficiency>50%) |",
+      "Datasheet_PS-5501-50LG_PS-5651-50LG_PS-5751-50LG_V3.md: ### Output  \n| Parameter | 12V | 5V | 3.3V | -12V | 5Vsb |\n|---|---|---|---|---|---|\n| Rated power | 500W / 650W / 750W | | | | |\n| Rated voltage | 12V | 5V | 3.3V | -12V | 5Vsb |\n| Rated current | 41.6A / 54.1A / 62.5A | 20A | 20A | 0.3A | 3A |\n| Ripple & Noise (max.) (note #2) | 120mV | 50mV | 50mV | 120mV | 50mV |\n| Line & load regulation | ±5% | ±5% | ±5% | ±10% | ±5% |  \n| Parameter | Value |\n|---|---|\n| Hold-up time (typ.) (note #5) | 16ms |\n| Timing: AC ON delay / rising (max.) | 2 sec / 20ms |",
+      "Datasheet_PS-5501-50CL_PS-5651-50CL_PS-5751-50CL_V2.md: ### Input  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac, 300Vac for 5 sec |\n| Current range (max.) | 8A/100Vac (500W); 8A/100Vac (650W); 10A/100Vac (750W) |\n| Inrush current | No component damaged (<I²t) |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 3.5mA at 240Vac |\n| Efficiency (min.) | 87% - 90% - 87% (at 20% - 50% - 100% of rated loading) |\n| Standby power saving (min.) | Pin<1W at 5Vsb/0.1A; Pin<0.5W at Po=0.25W (at REM_OFF, efficiency>50%) |"
+    ],
+    "type": "single_value"
+  },
+  {
+    "question": "What is the maximum leakage current of HS-5102-12A1?",
+    "ground_truth": "3.5mA at 240Vac",
+    "answer": "The maximum leakage current for HS-5102-12A1 is 3.5mA at 240Vac, as stated in the context provided.",
+    "contexts": [
+      "Datasheet_HS-5102-12A1_HS-5122-12L1_V2.md: ## Electrical Specification  \n**Model Name:** HS-5102-12A1 / HS-5122-12L1  \n**Output**  \n| Parameter | 12V | 5V | 3.3V | -12V | 5Vsb |\n|---|---|---|---|---|---|\n| Rated power | 1KW/1.2KW | | | | |\n| Rated voltage | 12V | 5V | 3.3V | -12V | 5Vsb |\n| Rated current | 83A/100A | 20A | 20A | 0.3A | 3A |\n| Ripple & Noise (max.) (note #2) | 120mV | 50mV | 50mV | 120mV | 50mV |\n| Line & load regulation | ±5% | ±5% | ±5% | ±10% | ±5% |\n| Hold-up time (typ.) (note #5) | 16ms | | | | |\n| Timing: AC ON delay / rising (max.) | 2 sec / 20ms | | | | |  \n**Input**  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac, 300Vac for 5 sec |\n| Current range (max.) | 14A/100Vac, 6A/200Vac for 1KW; 15A/100Vac, 7A/200Vac for 1.2KW |\n| Inrush current | No component damaged (<I²t) |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 3.5mA at 240Vac |\n| Efficiency (min.) | 90% - 92% - 89% (at 20% - 50% - 100% of rated loading) |",
+      "Datasheet_HS-5301-12A1_V2.md: ## Electrical Specification  \n**Model Name:** HS-5301-12A1  \n**Output**  \n| Parameter | 12V | 5V | 3.3V | -12V | 5Vsb |\n|---|---|---|---|---|---|\n| Rated power | 300W | | | | |\n| Rated voltage | 12V | 5V | 3.3V | -12V | 5Vsb |\n| Rated current | 25A | 20A | 20A | 0.3A | 3A |\n| Ripple & Noise (max.) (note #2) | 120mV | 50mV | 50mV | 120mV | 50mV |\n| Line & load regulation | ±5% | ±5% | ±5% | ±10% | ±5% |\n| Hold-up time (typ.) (note #5) | 16ms | | | | |\n| Timing: AC ON delay / rising (max.) | 2 sec / 20ms | | | | |  \n**Input**  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac, 300Vac for 5 sec |\n| Current range (max.) | 6.0A/100Vac |\n| Inrush current | No component damaged (<I²t) |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 3.5mA at 240Vac |\n| Efficiency (min.) | 87% - 90% - 87% (at 20% - 50% - 100% of rated loading) |",
+      "Datasheet_HS-5102-12A1_HS-5122-12L1_V2.md: | Efficiency (min.) | 90% - 92% - 89% (at 20% - 50% - 100% of rated loading) |\n| Standby power saving (min.) | Pin<1.2W at 5Vsb/0.12A; Pin<0.5W at 5Vsb/12mA |  \n**Protection Function**  \n| Parameter | Value |\n|---|---|\n| Over voltage (max.) | 140% of rated voltage, latch-off protection (for +12V/+5V/+3.3V) |\n| Over current (max.) | Latch-off protection (for +12V/+5V/+3.3V) |\n| Short circuit at O/P | Latch-off protection (for +12V/+5V/+3.3V) |\n| Over temperature | Latch-off protection |  \n**Others**  \n| Parameter | Value |\n|---|---|\n| MTBF (min.) (note#3) | 700K hours @ rated load |  \n**Environment**  \n| Parameter | Value |\n|---|---|\n| Temperature (note#5) | (operating) 0~50℃ / (storage) -40~85℃ |\n| Humidity | (operating) 10~90% RH non-condensing / (storage) 5~95% RH |\n| Altitude (max.) | 5000 meters |"
+    ],
+    "type": "single_value"
+  },
+  {
+    "question": "What is the maximum operating altitude of PS-5851-1J1?",
+    "ground_truth": "5000 meters",
+    "answer": "The maximum operating altitude of PS-5851-1J1 is 5000 meters.",
+    "contexts": [
+      "Datasheet_PS-5851-1J1_V2.md: ### Environment  \n| Parameter | Value |\n|---|---|\n| Temperature (note#5) | (operating) 0~50℃ / (storage) -40~85℃ |\n| Humidity | (operating) 10~90% RH non-condensing / (storage) 5~95% RH |\n| Altitude (max.) | 5000 meters |",
+      "Datasheet_PS-5851-1J1_V2.md: ## Features  \n- Full AC input voltage range design.\n- High power factor and less fictitious power.\n- Withstand 300Vac surge voltage for 5 seconds.\n- Full Protections: Short-circuit/ Over-voltage/ Over-current/ Over temperature.\n- INTEL® standard ATX form factor.\n- Meet 80+gold and support 200% peak power.\n- IEC/EN 62368-1 design compliance.\n- Up to 5000 meters operating altitude (note#4)\n- High efficiency and high reliability.\n- REM_ON/OFF and PWR_OK signal  \n---",
+      "Datasheet_PS-5851-1J1_V2.md: ### Output  \n| Parameter | 12V | 5V | 3.3V | -12V | 5Vsb |\n|---|---|---|---|---|---|\n| Rated power | 850W | | | | |\n| Rated voltage | 12V | 5V | 3.3V | -12V | 5Vsb |\n| Rated current | 70.5A | 20A | 20A | 0.3A | 2.5A |\n| Ripple & Noise (max.) (note #2) | 120mV | 50mV | 50mV | 120mV | 50mV |\n| Line & load regulation | ±5% | ±5% | ±5% | ±10% | ±5% |  \n| Parameter | Value |\n|---|---|\n| Hold-up time (typ.) (note #5) | 16ms |\n| Timing: AC ON delay / rising (max.) | 2 sec / 20ms |"
+    ],
+    "type": "single_value"
+  },
+  {
+    "question": "What safety certifications does HS-5102-12A1 comply with?",
+    "ground_truth": "CB/IEC62368-1, TUV62368-1, UL62368-1, EN62368-1, CCC GB4943.1, BSMI CNS15598-1, KC62368-1",
+    "answer": "HS-5102-12A1 complies with the following safety certifications:\n\n- CB/IEC62368-1\n- TUV62368-1\n- UL62368-1\n- EN62368-1\n- CCC GB4943.1\n- BSMI CNS15598-1\n- KC62368-1",
+    "contexts": [
+      "Datasheet_HS-5102-12A1_HS-5122-12L1_V2.md: ## Electrical Specification  \n**Model Name:** HS-5102-12A1 / HS-5122-12L1  \n**Output**  \n| Parameter | 12V | 5V | 3.3V | -12V | 5Vsb |\n|---|---|---|---|---|---|\n| Rated power | 1KW/1.2KW | | | | |\n| Rated voltage | 12V | 5V | 3.3V | -12V | 5Vsb |\n| Rated current | 83A/100A | 20A | 20A | 0.3A | 3A |\n| Ripple & Noise (max.) (note #2) | 120mV | 50mV | 50mV | 120mV | 50mV |\n| Line & load regulation | ±5% | ±5% | ±5% | ±10% | ±5% |\n| Hold-up time (typ.) (note #5) | 16ms | | | | |\n| Timing: AC ON delay / rising (max.) | 2 sec / 20ms | | | | |  \n**Input**  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac, 300Vac for 5 sec |\n| Current range (max.) | 14A/100Vac, 6A/200Vac for 1KW; 15A/100Vac, 7A/200Vac for 1.2KW |\n| Inrush current | No component damaged (<I²t) |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 3.5mA at 240Vac |\n| Efficiency (min.) | 90% - 92% - 89% (at 20% - 50% - 100% of rated loading) |",
+      "Datasheet_HS-5102-12A1_HS-5122-12L1_V2.md: ## Mechanical Specification  \n*(Cable assignment may be varied by request)*  \n| Parameter | Value |\n|---|---|\n| Dimension | 150(L)*160(W)*86(H) mm |\n| Vibration | 10~500 Hz, 5G 20min./1cycle per axis for all axes (X, Y, Z) |\n| Weight (typ.) | 1750g (excluding output cable) |  \n**Safety**  \n| Parameter | Value |\n|---|---|\n| Standard | CB/IEC62368-1, TUV62368-1, UL62368-1, EN62368-1, CCC GB4943.1, BSMI CNS15598-1, KC62368-1 |\n| Withstand voltage | Input-Output: 4242VDC / Input-FG: 2150VDC |\n| Isolation resistance (min.) | Input-Output: 100Mohm @ 500VDC, 25℃, 70%RH |  \n**EMC**  \n| Parameter | Value |\n|---|---|\n| EN55032 (CISPR32) | Conducted EMI: class B / Radiated EMI: class B |\n| FCC | Conducted EMI: class B / Radiated EMI: class B |\n| EN61000-3-2 | Harmonic distortion: Class D |\n| EN61000-4-2 | ESD: ±8KV contact discharge / ±15KV contact discharge |\n| EN61000-4-3 | Radiated RF immunity: 3V/m |\n| EN61000-4-4 | EFT: ±1KV (AC port) |\n| EN61000-4-5 | Surge: ±1KV DM / ±2KV CM |",
+      "Datasheet_HS-5102-12A1_HS-5122-12L1_V2.md: | Efficiency (min.) | 90% - 92% - 89% (at 20% - 50% - 100% of rated loading) |\n| Standby power saving (min.) | Pin<1.2W at 5Vsb/0.12A; Pin<0.5W at 5Vsb/12mA |  \n**Protection Function**  \n| Parameter | Value |\n|---|---|\n| Over voltage (max.) | 140% of rated voltage, latch-off protection (for +12V/+5V/+3.3V) |\n| Over current (max.) | Latch-off protection (for +12V/+5V/+3.3V) |\n| Short circuit at O/P | Latch-off protection (for +12V/+5V/+3.3V) |\n| Over temperature | Latch-off protection |  \n**Others**  \n| Parameter | Value |\n|---|---|\n| MTBF (min.) (note#3) | 700K hours @ rated load |  \n**Environment**  \n| Parameter | Value |\n|---|---|\n| Temperature (note#5) | (operating) 0~50℃ / (storage) -40~85℃ |\n| Humidity | (operating) 10~90% RH non-condensing / (storage) 5~95% RH |\n| Altitude (max.) | 5000 meters |"
+    ],
+    "type": "enumeration"
+  },
+  {
+    "question": "What safety certifications does PA-1101-66VN comply with?",
+    "ground_truth": "CB/IEC62368-1, UL62368-1, EN62368-1, PSE J62368-1, BSMI CNS15598-1",
+    "answer": "PA-1101-66VN complies with the following safety certifications:\n\n- CB/IEC62368-1\n- UL62368-1\n- EN62368-1\n- PSE J62368-1\n- BSMI CNS15598-1",
+    "contexts": [
+      "Datasheet_PA-1101-66VN_V3.md: ## Mechanical Specification",
+      "Datasheet_PA-1101-66VN_V3.md: ## Electrical Specification  \n**Model Name:** PA-1101-66VN",
+      "Datasheet_PA-1101-66VN_V3.md: ### Safety  \n| Parameter | Value |\n|---|---|\n| Standard | CB/IEC62368-1, UL62368-1, EN62368-1, PSE J62368-1, BSMI CNS15598-1 |\n| Withstand voltage | Input-Output: 4242VDC |\n| Isolation resistance (min.) | Input-Output: 30Mohm @ 500VDC, 25℃, 70%RH |"
+    ],
+    "type": "enumeration"
+  },
+  {
+    "question": "What safety certifications does PS-5851-1J1 comply with?",
+    "ground_truth": "CB/IEC62368-1, TUV62368-1, UL62368-1, EN62368-1, CCC GB4943.1, BSMI CNS15598-1, KC62368-1",
+    "answer": "PS-5851-1J1 complies with the following safety certifications: CB/IEC62368-1, TUV62368-1, UL62368-1, EN62368-1, CCC GB4943.1, BSMI CNS15598-1, KC62368-1.",
+    "contexts": [
+      "Datasheet_PS-5851-1J1_V2.md: ### Safety  \n| Parameter | Value |\n|---|---|\n| Standard | CB/IEC62368-1, TUV62368-1, UL62368-1, EN62368-1, CCC GB4943.1, BSMI CNS15598-1, KC62368-1 |\n| Withstand voltage | Input-Output: 4242VDC / Input-FG: 2150VDC |\n| Isolation resistance (min.) | Input-Output: 100Mohm @ 500VDC, 25℃, 70%RH |",
+      "Datasheet_PS-5851-1J1_V2.md: ## Mechanical Specification",
+      "Datasheet_PS-5851-1J1_V2.md: ## Electrical Specification  \n**Model Name:** PS-5851-1J1"
+    ],
+    "type": "enumeration"
+  },
+  {
+    "question": "What protection functions does PS-5601-60CL have?",
+    "ground_truth": "Over voltage (latch-off), over current (latch-off), short circuit (latch-off), over temperature (latch-off)",
+    "answer": "PS-5601-60CL has the following protection functions:\n\n- Over voltage (max. 140% of rated voltage, latch-off protection for +12V/+5V/+3.3V)\n- Over current (latch-off protection for +12V/+5V/+3.3V)\n- Short circuit at O/P (latch-off protection for +12V/+5V/+3.3V)\n- Over temperature (latch-off protection)",
+    "contexts": [
+      "Datasheet_PS-5601-60CL_PS-5751-60CL_PS-5851-60CL_V2.md: ### Protection Function  \n| Parameter | Value |\n|---|---|\n| Over voltage (max.) | 140% of rated voltage, latch-off protection (for +12V/+5V/+3.3V) |\n| Over current (max.) | Latch-off protection (for +12V/+5V/+3.3V) |\n| Short circuit at O/P | Latch-off protection (for +12V/+5V/+3.3V) |\n| Over temperature | Latch-off protection |",
+      "Datasheet_PS-5601-60CL_PS-5751-60CL_PS-5851-60CL_V2.md: ## Features  \n- Full AC input voltage range design.\n- High power factor and less fictitious power.\n- Withstand 300Vac surge voltage for 5 seconds.\n- Full Protections: Short-circuit/ Over-voltage/ Over-current/ Over temperature.\n- INTEL® standard ATX form factor.\n- Meet 80+gold and support 200% peak power (note#6).\n- IEC/EN 62368-1 design compliance.\n- Up to 5000 meters operating altitude (note#4)\n- High efficiency and high reliability.\n- REM_ON/OFF and PWR_OK signal  \n---",
+      "Datasheet_PS-5601-60CL_PS-5751-60CL_PS-5851-60CL_V2.md: ## Description  \nThis is a high-power factor (PF), multiple-output AC to DC switching mode power supply unit which can provide up to 600/750/850 watts continuous with forced cooling by a smart FSC (fan speed control) circuitry. There is a built-in auxiliary converter (5VSB) for better energy saving. It complies with 80+gold as well as worldwide safety and EMC regulations (refer to details below). It is suitable for various industrial PC applications.  \n---"
+    ],
+    "type": "enumeration"
+  },
+  {
+    "question": "What fast charging protocols does PA-1101-66VN support?",
+    "ground_truth": "QC2.0, QC3.0 and PD3.0",
+    "answer": "PA-1101-66VN supports QC2.0, QC3.0 / PD3.0.",
+    "contexts": [
+      "Datasheet_PA-1101-66VN_V3.md: ## Features  \n- Full AC input voltage range design.\n- Support for QC2.0, QC3.0 / PD3.0.\n- Full Protections: Short-circuit/ Over-voltage/ Over-current/ Over temperature.\n- Very low standby power, less than 150mW.\n- Very low leakage current.\n- IEC/EN 62368-1 design compliance.\n- Up to 5000 meters operating altitude.\n- Built-in 1.8m type C cable.  \n---",
+      "Datasheet_PA-1101-66VN_V3.md: ## Electrical Specification  \n**Model Name:** PA-1101-66VN",
+      "Datasheet_PA-1101-66VN_V3.md: ### Input  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac |\n| Current range (max.) | 1.6A |\n| Inrush current (typ.) | Limited to a 22% margin of the I²t rating of fuse and bridge rectifier |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 100uA at 264Vac |\n| Efficiency (min.) (note#2) | 89.0% |"
+    ],
+    "type": "enumeration"
+  },
+  {
+    "question": "What is the difference in operating temperature between PS-5501-50LG and PS-5601-60CL?",
+    "ground_truth": "PS-5501-50LG operates at 0~50℃, PS-5601-60CL operates at 0~40℃",
+    "answer": "I cannot find the answer.",
+    "contexts": [
+      "Datasheet_PS-5501-50CL_PS-5651-50CL_PS-5751-50CL_V2.md: ## Electrical Specification  \n**Model Name:** PS-5501-50CL / PS-5651-50CL / PS-5751-50CL",
+      "Datasheet_PS-5501-50LG_PS-5651-50LG_PS-5751-50LG_V3.md: ## Electrical Specification  \n**Model Name:** PS-5501-50LG / PS-5651-50LG / PS-5751-50LG",
+      "Datasheet_PS-5501-50LG_PS-5651-50LG_PS-5751-50LG_V3.md: ### Environment  \n| Parameter | Value |\n|---|---|\n| Temperature (note#5) | (operating) 0~50℃ / (storage) -40~85℃ |\n| Humidity | (operating) 10~90% RH non-condensing / (storage) 5~95% RH |\n| Altitude (max.) | 5000 meters |"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Which has a higher MTBF, HS-5102-12A1 or PA-1101-66VN?",
+    "ground_truth": "HS-5102-12A1 has higher MTBF at 700K hours, compared to PA-1101-66VN at 100K hours",
+    "answer": "I cannot find the answer.",
+    "contexts": [
+      "Datasheet_HS-5102-12A1_HS-5122-12L1_V2.md: ## Electrical Specification  \n**Model Name:** HS-5102-12A1 / HS-5122-12L1  \n**Output**  \n| Parameter | 12V | 5V | 3.3V | -12V | 5Vsb |\n|---|---|---|---|---|---|\n| Rated power | 1KW/1.2KW | | | | |\n| Rated voltage | 12V | 5V | 3.3V | -12V | 5Vsb |\n| Rated current | 83A/100A | 20A | 20A | 0.3A | 3A |\n| Ripple & Noise (max.) (note #2) | 120mV | 50mV | 50mV | 120mV | 50mV |\n| Line & load regulation | ±5% | ±5% | ±5% | ±10% | ±5% |\n| Hold-up time (typ.) (note #5) | 16ms | | | | |\n| Timing: AC ON delay / rising (max.) | 2 sec / 20ms | | | | |  \n**Input**  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac, 300Vac for 5 sec |\n| Current range (max.) | 14A/100Vac, 6A/200Vac for 1KW; 15A/100Vac, 7A/200Vac for 1.2KW |\n| Inrush current | No component damaged (<I²t) |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 3.5mA at 240Vac |\n| Efficiency (min.) | 90% - 92% - 89% (at 20% - 50% - 100% of rated loading) |",
+      "Datasheet_HS-5102-12A1_HS-5122-12L1_V2.md: | Efficiency (min.) | 90% - 92% - 89% (at 20% - 50% - 100% of rated loading) |\n| Standby power saving (min.) | Pin<1.2W at 5Vsb/0.12A; Pin<0.5W at 5Vsb/12mA |  \n**Protection Function**  \n| Parameter | Value |\n|---|---|\n| Over voltage (max.) | 140% of rated voltage, latch-off protection (for +12V/+5V/+3.3V) |\n| Over current (max.) | Latch-off protection (for +12V/+5V/+3.3V) |\n| Short circuit at O/P | Latch-off protection (for +12V/+5V/+3.3V) |\n| Over temperature | Latch-off protection |  \n**Others**  \n| Parameter | Value |\n|---|---|\n| MTBF (min.) (note#3) | 700K hours @ rated load |  \n**Environment**  \n| Parameter | Value |\n|---|---|\n| Temperature (note#5) | (operating) 0~50℃ / (storage) -40~85℃ |\n| Humidity | (operating) 10~90% RH non-condensing / (storage) 5~95% RH |\n| Altitude (max.) | 5000 meters |",
+      "Datasheet_PA-1101-66VN_V3.md: ## Mechanical Specification"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Does HS-5102-12A1 meet 80+platinum or 80+gold efficiency standard?",
+    "ground_truth": "80+platinum",
+    "answer": "I cannot find the answer.",
+    "contexts": [
+      "Datasheet_HS-5102-12A1_HS-5122-12L1_V2.md: | Efficiency (min.) | 90% - 92% - 89% (at 20% - 50% - 100% of rated loading) |\n| Standby power saving (min.) | Pin<1.2W at 5Vsb/0.12A; Pin<0.5W at 5Vsb/12mA |  \n**Protection Function**  \n| Parameter | Value |\n|---|---|\n| Over voltage (max.) | 140% of rated voltage, latch-off protection (for +12V/+5V/+3.3V) |\n| Over current (max.) | Latch-off protection (for +12V/+5V/+3.3V) |\n| Short circuit at O/P | Latch-off protection (for +12V/+5V/+3.3V) |\n| Over temperature | Latch-off protection |  \n**Others**  \n| Parameter | Value |\n|---|---|\n| MTBF (min.) (note#3) | 700K hours @ rated load |  \n**Environment**  \n| Parameter | Value |\n|---|---|\n| Temperature (note#5) | (operating) 0~50℃ / (storage) -40~85℃ |\n| Humidity | (operating) 10~90% RH non-condensing / (storage) 5~95% RH |\n| Altitude (max.) | 5000 meters |",
+      "Datasheet_HS-5102-12A1_HS-5122-12L1_V2.md: ## Description  \nThis is a high-power factor (PF), multiple-output AC to DC switching mode power supply unit which can provide up to 1,000 / 1,200 watts continuous with forced cooling by a smart FSC (fan speed control) circuitry. There is a built-in auxiliary converter (5VSB) for better energy saving. It complies with 80+platinum as well as worldwide safety and EMC regulations (refer to details below). It is suitable for various industrial PC applications.",
+      "Datasheet_HS-5102-12A1_HS-5122-12L1_V2.md: ## Electrical Specification  \n**Model Name:** HS-5102-12A1 / HS-5122-12L1  \n**Output**  \n| Parameter | 12V | 5V | 3.3V | -12V | 5Vsb |\n|---|---|---|---|---|---|\n| Rated power | 1KW/1.2KW | | | | |\n| Rated voltage | 12V | 5V | 3.3V | -12V | 5Vsb |\n| Rated current | 83A/100A | 20A | 20A | 0.3A | 3A |\n| Ripple & Noise (max.) (note #2) | 120mV | 50mV | 50mV | 120mV | 50mV |\n| Line & load regulation | ±5% | ±5% | ±5% | ±10% | ±5% |\n| Hold-up time (typ.) (note #5) | 16ms | | | | |\n| Timing: AC ON delay / rising (max.) | 2 sec / 20ms | | | | |  \n**Input**  \n| Parameter | Value |\n|---|---|\n| Rated voltage range | 100~240Vac |\n| Operated voltage range | 90~264Vac, 300Vac for 5 sec |\n| Current range (max.) | 14A/100Vac, 6A/200Vac for 1KW; 15A/100Vac, 7A/200Vac for 1.2KW |\n| Inrush current | No component damaged (<I²t) |\n| Frequency range | 50-60Hz |\n| Leakage current (max.) | 3.5mA at 240Vac |\n| Efficiency (min.) | 90% - 92% - 89% (at 20% - 50% - 100% of rated loading) |"
+    ],
+    "type": "feature"
+  },
+  {
+    "question": "Does PS-5501-50LG meet 80+platinum or 80+gold efficiency standard?",
+    "ground_truth": "80+gold",
+    "answer": "I cannot find the answer.",
+    "contexts": [
+      "Datasheet_PS-5501-50LG_PS-5651-50LG_PS-5751-50LG_V3.md: ## Description  \nThis is a high-power factor (PF), multiple-output AC to DC switching mode power supply unit which can provide up to 500/650/750 watts continuous with forced cooling by a smart FSC (fan speed control) circuitry. There is a built-in auxiliary converter (5VSB) for better energy saving. It complies with 80+gold as well as worldwide safety and EMC regulations (refer to details below). It is suitable for various industrial PC applications.  \n---",
+      "Datasheet_PS-5601-60LG_PS-5751-60LG_PS-5851-60LG_V2.md: ## Description  \nThis is a high-power factor (PF), multiple-output AC to DC switching mode power supply unit which can provide up to 600/750/850 watts continuous with forced cooling by a smart FSC (fan speed control) circuitry. There is a built-in auxiliary converter (5VSB) for better energy saving. It complies with 80+gold as well as worldwide safety and EMC regulations (refer to details below). It is suitable for various industrial PC applications.  \n---",
+      "Datasheet_PS-5501-50LG_PS-5651-50LG_PS-5751-50LG_V3.md: ## Features  \n- Full AC input voltage range design.\n- High power factor and less fictitious power.\n- Withstand 300Vac surge voltage for 5 seconds.\n- Full Protections: Short-circuit/ Over-voltage/ Over-current/ Over temperature.\n- INTEL® standard ATX form factor.\n- Meet 80+gold and support 200% peak power (note#6).\n- IEC/EN 62368-1 design compliance.\n- Up to 5000 meters operating altitude (note#4)\n- High efficiency and high reliability.\n- REM_ON/OFF and PWR_OK signal  \n---"
+    ],
+    "type": "feature"
+  },
+  {
+    "question": "What is the short circuit protection behavior of PA-1101-66VN?",
+    "ground_truth": "No damage, auto-restart protection",
+    "answer": "The short circuit at O/P protection for PA-1101-66VN is \"No damage, auto-restart protection\" as stated in the context.",
+    "contexts": [
+      "Datasheet_PA-1101-66VN_V3.md: ### Protection Function  \n| Parameter | Value |\n|---|---|\n| Over voltage (max.) | 140% of rated voltage, latch-off protection |\n| Over current (max.) | 7.5A, auto-restart protection |\n| Short circuit at O/P | No damage, auto-restart protection |\n| Over temperature | No damage, latch-off protection |",
+      "Datasheet_PA-1101-66VN_V3.md: ## Features  \n- Full AC input voltage range design.\n- Support for QC2.0, QC3.0 / PD3.0.\n- Full Protections: Short-circuit/ Over-voltage/ Over-current/ Over temperature.\n- Very low standby power, less than 150mW.\n- Very low leakage current.\n- IEC/EN 62368-1 design compliance.\n- Up to 5000 meters operating altitude.\n- Built-in 1.8m type C cable.  \n---",
+      "Datasheet_PA-1141-50VN_V5.md: ### Protection Function  \n| Parameter | Value |\n|---|---|\n| Over voltage (max.) | 120% of nominal output voltage, auto-recovery |\n| Over current (max.) | 6.3A, auto-recovery |\n| Short circuit at O/P | No Fire, no damage, auto-recovery |\n| Over temperature | Shutdown, no damage, auto-recovery |"
+    ],
+    "type": "feature"
+  }
+]

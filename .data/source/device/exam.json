@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the rated power of HS-5102-12A1?",
+        "ground_truth": "1KW (1000W)",
+        "type": "single_value"
+    },
+    {
+        "question": "What is the operating temperature range of PS-5501-50LG?",
+        "ground_truth": "0~50℃",
+        "type": "single_value"
+    },
+    {
+        "question": "What is the operating temperature range of PS-5601-60CL?",
+        "ground_truth": "0~40℃",
+        "type": "single_value"
+    },
+    {
+        "question": "What is the weight of PA-1101-66VN?",
+        "ground_truth": "300g",
+        "type": "single_value"
+    },
+    {
+        "question": "What is the dimension of HS-5102-12A1?",
+        "ground_truth": "150(L)*160(W)*86(H) mm",
+        "type": "single_value"
+    },
+    {
+        "question": "What is the MTBF of PS-5851-1J1?",
+        "ground_truth": "700K hours at rated load",
+        "type": "single_value"
+    },
+    {
+        "question": "What is the maximum output current of PA-1101-66VN at 20V?",
+        "ground_truth": "5A",
+        "type": "single_value"
+    },
+    {
+        "question": "What is the minimum efficiency of PS-5501-50LG at 50% load?",
+        "ground_truth": "90%",
+        "type": "single_value"
+    },
+    {
+        "question": "What is the maximum leakage current of HS-5102-12A1?",
+        "ground_truth": "3.5mA at 240Vac",
+        "type": "single_value"
+    },
+    {
+        "question": "What is the maximum operating altitude of PS-5851-1J1?",
+        "ground_truth": "5000 meters",
+        "type": "single_value"
+    },
+    {
+        "question": "What safety certifications does HS-5102-12A1 comply with?",
+        "ground_truth": "CB/IEC62368-1, TUV62368-1, UL62368-1, EN62368-1, CCC GB4943.1, BSMI CNS15598-1, KC62368-1",
+        "type": "enumeration"
+    },
+    {
+        "question": "What safety certifications does PA-1101-66VN comply with?",
+        "ground_truth": "CB/IEC62368-1, UL62368-1, EN62368-1, PSE J62368-1, BSMI CNS15598-1",
+        "type": "enumeration"
+    },
+    {
+        "question": "What safety certifications does PS-5851-1J1 comply with?",
+        "ground_truth": "CB/IEC62368-1, TUV62368-1, UL62368-1, EN62368-1, CCC GB4943.1, BSMI CNS15598-1, KC62368-1",
+        "type": "enumeration"
+    },
+    {
+        "question": "What protection functions does PS-5601-60CL have?",
+        "ground_truth": "Over voltage (latch-off), over current (latch-off), short circuit (latch-off), over temperature (latch-off)",
+        "type": "enumeration"
+    },
+    {
+        "question": "What fast charging protocols does PA-1101-66VN support?",
+        "ground_truth": "QC2.0, QC3.0 and PD3.0",
+        "type": "enumeration"
+    },
+    {
+        "question": "What is the difference in operating temperature between PS-5501-50LG and PS-5601-60CL?",
+        "ground_truth": "PS-5501-50LG operates at 0~50℃, PS-5601-60CL operates at 0~40℃",
+        "type": "comparison"
+    },
+    {
+        "question": "Which has a higher MTBF, HS-5102-12A1 or PA-1101-66VN?",
+        "ground_truth": "HS-5102-12A1 has higher MTBF at 700K hours, compared to PA-1101-66VN at 100K hours",
+        "type": "comparison"
+    },
+    {
+        "question": "Does HS-5102-12A1 meet 80+platinum or 80+gold efficiency standard?",
+        "ground_truth": "80+platinum",
+        "type": "feature"
+    },
+    {
+        "question": "Does PS-5501-50LG meet 80+platinum or 80+gold efficiency standard?",
+        "ground_truth": "80+gold",
+        "type": "feature"
+    },
+    {
+        "question": "What is the short circuit protection behavior of PA-1101-66VN?",
+        "ground_truth": "No damage, auto-restart protection",
+        "type": "feature"
+    }
+]

@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__pdf-converter__getArticle",
+      "Bash(python -c \"import instructor; import groq; client = instructor.from_groq\\(groq.Groq\\(\\)\\); print\\(''ok''\\)\")",
+      "Bash(python -c \":*)"
+    ]
+  },
+  "mcpServers": {
+    "pdf-converter": {
+      "command": "conda",
+      "args": [
+        "run",
+        "--no-capture-output",
+        "-n",
+        "SimpleRAG",
+        "python",
+        "server.py"
+      ],
+      "cwd": "/home/houzeyu2683/Documents/SimpleRAG"
+    }
+  }
+}

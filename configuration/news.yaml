@@ -1,0 +1,37 @@
+domain: news
+collection_name: bbc_zhongwen
+data_path: .data/bbc
+chunk_size: 500
+chunk_overlap: 50
+embedding_model: BAAI/bge-m3
+llm_model: qwen2.5:3b
+llm_provider: ollama
+qa_test_path: .data/news/test.json
+retrieval_limit: 5
+reranking: true
+rerank_model: BAAI/bge-reranker-base
+rerank_limit: 3
+prompt_version: baseline
+prompts:
+  baseline: |
+    你是一個新聞問答助手，根據以下新聞資料回答問題。
+    如果資料中找不到答案，請說「我找不到相關資訊」，不要猜測。
+
+    資料：
+    {context}
+
+    問題：{question}
+    回答：
+  strict: |
+    你是一個新聞問答助手。你只能根據以下「資料」區塊中的內容來回答問題。
+
+    規則：
+    - 只能使用資料中明確出現的資訊
+    - 禁止補充任何資料中沒有的內容
+    - 如果資料中找不到答案，只回答「我找不到相關資訊」，不做任何推測
+
+    資料：
+    {context}
+
+    問題：{question}
+    回答：
