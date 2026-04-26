@@ -1,0 +1,88 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ragsystem-backend"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+dependencies = [
+    # Web framework
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.32",
+    "python-multipart>=0.0.20",
+
+    # Auth
+    "python-jose[cryptography]>=3.3",
+    "bcrypt>=4.0",
+
+    # Database
+    "sqlalchemy[asyncio]>=2.0",
+    "aiomysql>=0.2",
+    "alembic>=1.14",
+
+    # Qdrant
+    "qdrant-client>=1.13",
+
+    # Redis / Celery
+    "celery[redis]>=5.4",
+    "redis>=5.2",
+
+    # PDF parsing
+    "pymupdf>=1.25",
+    "pdfplumber>=0.11",
+
+    # RAG / Embeddings
+    "sentence-transformers>=3.3",
+    "fastembed>=0.8",
+
+    # HTTP client (Ollama)
+    "httpx>=0.28",
+
+    # Config
+    "pydantic-settings>=2.7",
+    "python-dotenv>=1.0",
+
+    # Logging
+    "structlog>=25.1",
+
+    # Utilities
+    "tqdm>=4.67",
+    "aiofiles>=24.1",
+    "Pillow>=11.1",
+]
+
+[project.optional-dependencies]
+prod = []
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=0.25",
+    "pytest-cov>=6.0",
+    "httpx>=0.28",
+    "anyio>=4.7",
+    "watchdog>=6.0",        # Celery hot-reload in dev
+    "ruff>=0.9",
+    "mypy>=1.14",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["B008"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
